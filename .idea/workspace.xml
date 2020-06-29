@@ -1,41 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88629c86-4603-420b-840d-ee026d78df9b" name="Default" comment="">
+    <list default="true" id="88629c86-4603-420b-840d-ee026d78df9b" name="Default" comment="reload project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/model_bp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/model_bp/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/processed/test.pt" afterPath="$PROJECT_DIR$/data/FashionMNIST/processed/test.pt" />
-      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/processed/training.pt" afterPath="$PROJECT_DIR$/data/FashionMNIST/processed/training.pt" />
-      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/t10k-images-idx3-ubyte" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/t10k-images-idx3-ubyte" />
-      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz" />
-      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/t10k-labels-idx1-ubyte" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/t10k-labels-idx1-ubyte" />
-      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz" />
-      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/train-images-idx3-ubyte" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/train-images-idx3-ubyte" />
-      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/train-images-idx3-ubyte.gz" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/train-images-idx3-ubyte.gz" />
-      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/train-labels-idx1-ubyte" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/train-labels-idx1-ubyte" />
-      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/train-labels-idx1-ubyte.gz" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/train-labels-idx1-ubyte.gz" />
-      <change beforePath="$PROJECT_DIR$/model_bp/log/avg_loss.txt" afterPath="$PROJECT_DIR$/model_bp/log/avg_loss.txt" />
-      <change beforePath="$PROJECT_DIR$/model_bp/log/test_accuracy_top1.txt" afterPath="$PROJECT_DIR$/model_bp/log/test_accuracy_top1.txt" />
-      <change beforePath="$PROJECT_DIR$/model_bp/log/test_accuracy_top2.txt" afterPath="$PROJECT_DIR$/model_bp/log/test_accuracy_top2.txt" />
-      <change beforePath="$PROJECT_DIR$/model_bp/model/model_bp_final_epoch.pth" afterPath="$PROJECT_DIR$/model_bp/model/model_bp_final_epoch.pth" />
-      <change beforePath="$PROJECT_DIR$/model_bp/test_bp.py" afterPath="$PROJECT_DIR$/model_bp/test_bp.py" />
-      <change beforePath="$PROJECT_DIR$/model_bp/train_bp.py" afterPath="$PROJECT_DIR$/model_bp/train_bp.py" />
-      <change beforePath="$PROJECT_DIR$/model_bp/visualize.py" afterPath="$PROJECT_DIR$/visualize.py" />
-      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/processed/test.pt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/processed/training.pt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/t10k-images-idx3-ubyte" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/t10k-labels-idx1-ubyte" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/train-images-idx3-ubyte" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/train-images-idx3-ubyte.gz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/train-labels-idx1-ubyte" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/train-labels-idx1-ubyte.gz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_cnn/log/avg_loss.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_cnn/test_cnn.py" afterPath="$PROJECT_DIR$/model_cnn/test_cnn.py" />
-      <change beforePath="$PROJECT_DIR$/model_cnn/train_cnn.py" afterPath="$PROJECT_DIR$/model_cnn/train_cnn.py" />
-      <change beforePath="$PROJECT_DIR$/model_cnn/visualize.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,6 +54,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="creama" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="fashion-minst-program" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -308,7 +280,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592132348912</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="reload project">
+      <created>1593403890337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593403890337</updated>
+    </task>
+    <task id="LOCAL-00003" summary="reload project">
+      <created>1593404237586</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593404237586</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -330,9 +316,9 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13435195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.49367756" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -352,6 +338,16 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
