@@ -1,34 +1,40 @@
-# ½éÉÜ
-Ê¹ÓÃÁ½¸ö¼òµ¥µÄËã·¨¶ÔFashionMNIST½øÐÐÑµÁ·ºÍ²âÊÔ¡£µÚÒ»¸öËã·¨ÊÇÒ»¸öËÄ²ãµÄÈ«Á¬½ÓÍøÂç£¬µÚ¶þ¸öËã·¨ÊÇÔÚLeNet-5µÄ»ù´¡ÉÏÔö¼ÓÁËÁ½¸ö¾í»ý²ã£¬
-ÎÒ³ÆÎªLeNet-7¡£È«Á¬½ÓÍøÂçµÄ´úÂëÔÚmodel_bpÎÄ¼þÖÐ£¬LeNet-7ÍøÂçÔÚmodel_cnnÖÐ¡£
-# FashionMNISTÊý¾Ý¼¯
-FashionMNISTÊý¾Ý¼¯µÄµØÖ·£ºhttps://github.com/zalandoresearch/fashion-mnist¡£
-Fashion MNISTÊý¾Ý¼¯ÊÇµÂ¹úÑÐ¾¿»ú¹¹Zalando ResearchÓÚ2017Äê8ÔÂ·Ý£¬ÔÚGithubÉÏÍÆ³öµÄÒ»¸ö¾­µäÊý¾Ý¼¯¡£
-ÆäÖÐÑµÁ·¼¯°üº¬60000¸öÑùÀý£¬²âÊÔ¼¯°üº¬10000¸öÑùÀý£¬·ÖÎª10Àà£¬Ã¿Ò»ÀàµÄÑù±¾ÑµÁ·Ñù±¾ÊýÁ¿ºÍ²âÊÔÑù±¾ÊýÁ¿ÏàÍ¬£¬Ã¿¸öÑù±¾¶¼ÊÇ28¡Á28µÄ»Ò¶ÈÍ¼Ïñ£¬
-¹²ÓÐ10Àà±êÇ©£¬²¢ÇÒÃ¿¸öÑù±¾¶¼ÓÐ¸÷×ÔÎ¨Ò»µÄ±êÇ©¡£
+ï»¿# çŽ¯å¢ƒ
+python 3.6.1
+torch 1.4.0
+torchvision 0.5.0
+matplotlib 2.0.2
 
-# ÑµÁ·
-ÑµÁ·¹ý³ÌµÄepochÉèÎª30£¬batch_sizeÉèÎª100£¬ÑµÁ·½áÊøºó»á½«²âÊÔµÄtop1×¼È·ÂÊ¡¢top2×¼È·ÂÊºÍlossÇúÏß»­³öÀ´¡£
-## ÑµÁ·È«Á¬½ÓÍøÂç
-ÔÚmodel_bpÄ¿Â¼ÏÂ
+# ä»‹ç»
+ä½¿ç”¨ä¸¤ä¸ªç®€å•çš„ç®—æ³•å¯¹FashionMNISTè¿›è¡Œè®­ç»ƒå’Œæµ‹è¯•ã€‚ç¬¬ä¸€ä¸ªç®—æ³•æ˜¯ä¸€ä¸ªå››å±‚çš„å…¨è¿žæŽ¥ç½‘ç»œï¼Œç¬¬äºŒä¸ªç®—æ³•æ˜¯åœ¨LeNet-5çš„åŸºç¡€ä¸Šå¢žåŠ äº†ä¸¤ä¸ªå·ç§¯å±‚ï¼Œ
+æˆ‘ç§°ä¸ºLeNet-7ã€‚å…¨è¿žæŽ¥ç½‘ç»œçš„ä»£ç åœ¨model_bpæ–‡ä»¶ä¸­ï¼ŒLeNet-7ç½‘ç»œåœ¨model_cnnä¸­ã€‚
+# FashionMNISTæ•°æ®é›†
+FashionMNISTæ•°æ®é›†çš„åœ°å€ï¼šhttps://github.com/zalandoresearch/fashion-mnistã€‚
+Fashion MNISTæ•°æ®é›†æ˜¯å¾·å›½ç ”ç©¶æœºæž„Zalando ResearchäºŽ2017å¹´8æœˆä»½ï¼Œåœ¨Githubä¸ŠæŽ¨å‡ºçš„ä¸€ä¸ªç»å…¸æ•°æ®é›†ã€‚
+å…¶ä¸­è®­ç»ƒé›†åŒ…å«60000ä¸ªæ ·ä¾‹ï¼Œæµ‹è¯•é›†åŒ…å«10000ä¸ªæ ·ä¾‹ï¼Œåˆ†ä¸º10ç±»ï¼Œæ¯ä¸€ç±»çš„æ ·æœ¬è®­ç»ƒæ ·æœ¬æ•°é‡å’Œæµ‹è¯•æ ·æœ¬æ•°é‡ç›¸åŒï¼Œæ¯ä¸ªæ ·æœ¬éƒ½æ˜¯28Ã—28çš„ç°åº¦å›¾åƒï¼Œ
+å…±æœ‰10ç±»æ ‡ç­¾ï¼Œå¹¶ä¸”æ¯ä¸ªæ ·æœ¬éƒ½æœ‰å„è‡ªå”¯ä¸€çš„æ ‡ç­¾ã€‚
+
+# è®­ç»ƒ
+è®­ç»ƒè¿‡ç¨‹çš„epochè®¾ä¸º30ï¼Œbatch_sizeè®¾ä¸º100ï¼Œè®­ç»ƒç»“æŸåŽä¼šå°†æµ‹è¯•çš„top1å‡†ç¡®çŽ‡ã€top2å‡†ç¡®çŽ‡å’Œlossæ›²çº¿ç”»å‡ºæ¥ã€‚
+## è®­ç»ƒå…¨è¿žæŽ¥ç½‘ç»œ
+åœ¨model_bpç›®å½•ä¸‹
 ```python
 python train_bp.py
 ```
-## ÑµÁ·LeNet-7
-ÔÚmodel_cnnÄ¿Â¼ÏÂ
+## è®­ç»ƒLeNet-7
+åœ¨model_cnnç›®å½•ä¸‹
 ```python
 python train_cnn.py
 ```
 
-# ²âÊÔ
-²âÊÔ¹ý³Ì»á´Ó²âÊÔÑù±¾ÖÐËæ»úÈ¡³öbatch_size¸öÑù±¾½øÐÐ²âÊÔ£¬²¢½«Ô¤²âµÄlabel´òÓ¡³öÀ´¡£
-## ²âÊÔÈ«Á¬½ÓÍøÂç
-ÔÚmodel_bpÄ¿Â¼ÏÂ
+# æµ‹è¯•
+æµ‹è¯•è¿‡ç¨‹ä¼šä»Žæµ‹è¯•æ ·æœ¬ä¸­éšæœºå–å‡ºbatch_sizeä¸ªæ ·æœ¬è¿›è¡Œæµ‹è¯•ï¼Œå¹¶å°†é¢„æµ‹çš„labelæ‰“å°å‡ºæ¥ã€‚
+## æµ‹è¯•å…¨è¿žæŽ¥ç½‘ç»œ
+åœ¨model_bpç›®å½•ä¸‹
 ```python
 python test_bp.py
 ```
-## ²âÊÔLeNet-7
-ÔÚmodel_cnnÄ¿Â¼ÏÂ
+## æµ‹è¯•LeNet-7
+åœ¨model_cnnç›®å½•ä¸‹
 ```python
 python test_cnn.py
 ```

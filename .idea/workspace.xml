@@ -2,59 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88629c86-4603-420b-840d-ee026d78df9b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/fashion-minst-program.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/.idea/dictionaries/admin.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/.idea/model_bp.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/data/FashionMNIST/processed/test.pt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/data/FashionMNIST/processed/training.pt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/t10k-images-idx3-ubyte" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/t10k-labels-idx1-ubyte" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/train-images-idx3-ubyte" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/train-images-idx3-ubyte.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/train-labels-idx1-ubyte" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/train-labels-idx1-ubyte.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/log/avg_loss.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/log/test_accuracy_top1.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/log/test_accuracy_top2.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/model/model_bp_final_epoch.pth" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/model_bp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/test_bp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/train_bp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_bp/visualize.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/.idea/dictionaries/admin.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/.idea/model01.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/processed/test.pt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/processed/training.pt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/t10k-images-idx3-ubyte" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/t10k-labels-idx1-ubyte" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/train-images-idx3-ubyte" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/train-images-idx3-ubyte.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/train-labels-idx1-ubyte" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/train-labels-idx1-ubyte.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/log/avg_loss.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/log/test_accuracy_top1.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/log/test_accuracy_top2.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/model/model_cnn_final_epoch.pth" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/model_cnn.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/test_cnn.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/train_cnn.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/model_cnn/visualize.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/model_bp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/model_bp/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/processed/test.pt" afterPath="$PROJECT_DIR$/data/FashionMNIST/processed/test.pt" />
+      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/processed/training.pt" afterPath="$PROJECT_DIR$/data/FashionMNIST/processed/training.pt" />
+      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/t10k-images-idx3-ubyte" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/t10k-images-idx3-ubyte" />
+      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz" />
+      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/t10k-labels-idx1-ubyte" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/t10k-labels-idx1-ubyte" />
+      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz" />
+      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/train-images-idx3-ubyte" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/train-images-idx3-ubyte" />
+      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/train-images-idx3-ubyte.gz" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/train-images-idx3-ubyte.gz" />
+      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/train-labels-idx1-ubyte" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/train-labels-idx1-ubyte" />
+      <change beforePath="$PROJECT_DIR$/model_bp/data/FashionMNIST/raw/train-labels-idx1-ubyte.gz" afterPath="$PROJECT_DIR$/data/FashionMNIST/raw/train-labels-idx1-ubyte.gz" />
+      <change beforePath="$PROJECT_DIR$/model_bp/log/avg_loss.txt" afterPath="$PROJECT_DIR$/model_bp/log/avg_loss.txt" />
+      <change beforePath="$PROJECT_DIR$/model_bp/log/test_accuracy_top1.txt" afterPath="$PROJECT_DIR$/model_bp/log/test_accuracy_top1.txt" />
+      <change beforePath="$PROJECT_DIR$/model_bp/log/test_accuracy_top2.txt" afterPath="$PROJECT_DIR$/model_bp/log/test_accuracy_top2.txt" />
+      <change beforePath="$PROJECT_DIR$/model_bp/model/model_bp_final_epoch.pth" afterPath="$PROJECT_DIR$/model_bp/model/model_bp_final_epoch.pth" />
+      <change beforePath="$PROJECT_DIR$/model_bp/test_bp.py" afterPath="$PROJECT_DIR$/model_bp/test_bp.py" />
+      <change beforePath="$PROJECT_DIR$/model_bp/train_bp.py" afterPath="$PROJECT_DIR$/model_bp/train_bp.py" />
+      <change beforePath="$PROJECT_DIR$/model_bp/visualize.py" afterPath="$PROJECT_DIR$/visualize.py" />
+      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/processed/test.pt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/processed/training.pt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/t10k-images-idx3-ubyte" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/t10k-labels-idx1-ubyte" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/train-images-idx3-ubyte" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/train-images-idx3-ubyte.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/train-labels-idx1-ubyte" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_cnn/data/FashionMNIST/raw/train-labels-idx1-ubyte.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_cnn/log/avg_loss.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_cnn/test_cnn.py" afterPath="$PROJECT_DIR$/model_cnn/test_cnn.py" />
+      <change beforePath="$PROJECT_DIR$/model_cnn/train_cnn.py" afterPath="$PROJECT_DIR$/model_cnn/train_cnn.py" />
+      <change beforePath="$PROJECT_DIR$/model_cnn/visualize.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,20 +45,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="train_cnn.py" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="test_cnn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model_cnn/test_cnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train_cnn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model_cnn/train_cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="24">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,12 +92,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/try.py" />
+        <option value="$PROJECT_DIR$/model_cnn/mp42gif.py" />
+        <option value="$PROJECT_DIR$/model_cnn/draw.py" />
+        <option value="$PROJECT_DIR$/model_cnn/train_cnn.py" />
+        <option value="$PROJECT_DIR$/model_bp/train_bp.py" />
+        <option value="$PROJECT_DIR$/model_cnn/test_cnn.py" />
+        <option value="$PROJECT_DIR$/model_bp/test_bp.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="257" />
+    <option name="y" value="3" />
     <option name="width" value="1432" />
     <option name="height" value="1047" />
   </component>
@@ -151,6 +164,12 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Pythonworkspace\fashion-minst-program" />
+      <recent name="E:\Pythonworkspace\fashion-minst-program\data" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -163,28 +182,108 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="try" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test_cnn">
+    <configuration name="draw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model_cnn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fashion-minst-program" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/try.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_cnn/draw.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="test_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model_cnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fashion-minst-program" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_cnn/test_cnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="train_bp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model_bp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fashion-minst-program" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_bp/train_bp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="train_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model_cnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fashion-minst-program" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_cnn/train_cnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="py.test in test_cnn.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model_cnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fashion-minst-program" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/model_cnn/test_cnn.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_cnn.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.train_cnn" />
+      <item index="2" class="java.lang.String" itemvalue="Python.draw" />
+      <item index="3" class="java.lang.String" itemvalue="Python.train_bp" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_cnn" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.try" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_cnn" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_cnn.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.train_bp" />
+        <item index="3" class="java.lang.String" itemvalue="Python.train_cnn" />
+        <item index="4" class="java.lang.String" itemvalue="Python.draw" />
       </list>
     </recent_temporary>
   </component>
@@ -202,46 +301,218 @@
       <option name="presentableId" value="Default" />
       <updated>1591952200421</updated>
     </task>
+    <task id="LOCAL-00001" summary="reload project">
+      <created>1592132348912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592132348912</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_in_test_cnn_py - 2020.06.14 at 19h 23m 25s.xml">
+      <configuration name="py.test in test_cnn.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_cnn_py - 2020.06.23 at 15h 31m 18s.xml">
+      <configuration name="py.test in test_cnn.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_cnn_py - 2020.06.23 at 15h 32m 20s.xml">
+      <configuration name="py.test in test_cnn.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_cnn_py - 2020.06.29 at 11h 44m 15s.xml">
+      <configuration name="py.test in test_cnn.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18335089" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13435195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.49367756" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49789253" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Anonymous Apex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="SOQL Query" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Log Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reload project" />
+    <option name="LAST_COMMIT_MESSAGE" value="reload project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/try.py" />
     <entry file="file://$PROJECT_DIR$/model_cnn/train_cnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_bp/train_bp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_cnn/test_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_bp/test_bp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_cnn/train_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_cnn/mp42gif.py" />
+    <entry file="file://$PROJECT_DIR$/model_cnn/test_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_cnn/draw.py" />
+    <entry file="file://$PROJECT_DIR$/../spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="52" column="62" lean-forward="false" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_cnn/train_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="71" lean-forward="true" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_cnn/model_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_cnn/train_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_cnn/test_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try.py" />
+    <entry file="file://$PROJECT_DIR$/model_cnn/model_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="52" column="62" lean-forward="false" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_cnn/gav24.gif" />
+    <entry file="file://$PROJECT_DIR$/../datas/tsinghua/data/annotations.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$0/hua tu.py" />
+    <entry file="file://$PROJECT_DIR$/model_cnn/accuracy_top1.txt" />
+    <entry file="file://$PROJECT_DIR$/model_cnn/draw.py" />
+    <entry file="file://$PROJECT_DIR$/model_cnn/mp42gif.py" />
+    <entry file="file://$PROJECT_DIR$/model_bp/test_bp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_bp/train_bp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_cnn/test_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_cnn/train_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

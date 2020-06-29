@@ -15,7 +15,7 @@ batch_size = 100
 epoch_num = 30
 
 # 处理数据集
-data_dir = 'data/'
+data_dir = '../data/'
 tranform = tranforms.Compose([tranforms.ToTensor()])
 
 # 下载FashionMNIST训练集数据，如果已经下载了就不会自动下载

@@ -7,7 +7,7 @@ import model_cnn
 import visualize
 
 # 处理数据集
-data_dir = 'data/'
+data_dir = '../data/'
 tranform = tranforms.Compose([tranforms.ToTensor()])
 
 test_dataset  = torchvision.datasets.FashionMNIST(root=data_dir, train=False, transform=tranform)
